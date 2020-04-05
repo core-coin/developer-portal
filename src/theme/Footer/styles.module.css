@@ -1,0 +1,15 @@
+.footerLogoLink {
+  opacity: 0.5;
+  transition: opacity 0.15s ease-in-out;
+}
+
+.footerLogoLink:hover {
+  opacity: 1;
+}
+
+footer a[target="_blank"]:after, footer a[href^="mailto:"]:after {
+  content: inherit;
+  margin: inherit;
+  opacity: inherit;
+  font-size: inherit;
+}

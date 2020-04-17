@@ -6,7 +6,7 @@ title: Bug Bounty Program
 ## Introduction
 
 We in Core Blockchain wants to engage with responsible security researchers around the globe to further secure the Blockchain environment.
-We developed a program to make it easier to report vulnerabilities to Core team and to recognize you for your efforts to make the Blockchain a secure and reliable technology.
+We developed a program to make it easier to report vulnerabilities to Core team and to recognise you for your efforts to make the Blockchain a secure and reliable technology.
 
 ## Responsible Disclosure
 
@@ -18,13 +18,13 @@ We are rewarding researchers that find bugs with a bounty of our digital currenc
 
 We calculate rewards regards to according to the [OWASP](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology) risk rating model based on Impact and Likelihood.
 
-| **Impact** | **Severity**   | **Severity**   | **Severity**   |
-|------------|----------------|----------------|----------------|
-| **High**   | Medium         | High           | Critical       |
-| **Medium** | Low            | Medium         | High           |
-| **Low**    | Note           | Low            | Medium         |
-|            | **Low**        | **Medium**     | **High**       |
-|            | **Likelihood** | **Likelihood** | **Likelihood** |
+| **Impact**   | **Severity**   | **Severity**   | **Severity**   |
+|--------------|----------------|----------------|----------------|
+| **High**     | Moderate       | High           | Critical       |
+| **Moderate** | Low            | Moderate       | High           |
+| **Low**      | Note           | Low            | Moderate       |
+|              | **Low**        | **Medium**     | **High**       |
+|              | **Likelihood** | **Likelihood** | **Likelihood** |
 
 1 point currently corresponds to 1 EUR (payable in Cores (XCE)), something which may change without prior notice.
 
@@ -43,7 +43,11 @@ We calculate rewards regards to according to the [OWASP](https://www.owasp.org/i
 
 ## Eligibility
 
-Any bug that poses a significant vulnerability to the security or integrity of the Core Network could be eligible for reward. However, it’s entirely at our discretion to decide whether a bug is significant enough to be eligible for reward. You must be the first person to responsibly disclose an unknown issue.
+Any bug that poses a significant vulnerability to the security or integrity of the Core Network could be eligible for reward. However, it’s entirely at our discretion to decide whether a bug is significant enough to be eligible for reward.
+
+- You must be the first person to responsibly disclose an unknown issue.
+- You must report bug against latest version of software.
+- Bug shouldn't be already discovered. Please, check [published security advisories](https://github.com/core-coin/go-core/security/advisories?state=published).
 
 In general, the following would not meet the threshold for severity:
 
@@ -66,12 +70,7 @@ The severity of a bug, is taken into consideration when deciding the bounty payo
 Open source projects:
 
 - Go-core client
-
-Networks:
-
-- Livenet
-- Testnet
-- Koliba
+- Puppeth tool
 
 ## Best Practices
 

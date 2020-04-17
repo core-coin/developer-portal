@@ -4,15 +4,7 @@
     "value": "go-core"
   },
   {
-    "name": "Livenet",
-    "value": "livenet"
-  },
-  {
-    "name": "Testnet",
-    "value": "testnet"
-  },
-  {
-    "name": "Koliba network",
-    "value": "koliba"
+    "name": "Puppeth",
+    "value": "puppeth"
   }
 ]

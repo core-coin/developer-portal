@@ -70,7 +70,6 @@ The severity of a bug, is taken into consideration when deciding the bounty payo
 Open source projects:
 
 - Go-core client
-- Puppeth tool
 
 ## Best Practices
 

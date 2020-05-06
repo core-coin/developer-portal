@@ -28,7 +28,7 @@
   --ifm-button-margin-vertical: 0.2rem;
   --ifm-button-margin-horizontal: 0.5rem;
   --ifm-color-logo: #303030;
-  --ifm-navbar-sidebar-background-image: url('https://picsum.photos/40');
+  --ifm-navbar-sidebar-background-image: url('/img/core-logo.png');
 }
 
 @media only screen and (max-width: 1211px) {

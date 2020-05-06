@@ -1,10 +1,7 @@
 [
   {
     "name": "Go Core",
-    "value": "go-core"
-  },
-  {
-    "name": "Puppeth",
-    "value": "puppeth"
+    "value": "go-core",
+    "repo": "https://github.com/core-coin/go-core"
   }
 ]

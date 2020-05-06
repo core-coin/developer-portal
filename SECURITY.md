@@ -65,7 +65,6 @@ The severity of a bug, is taken into consideration when deciding the bounty payo
 Open source projects:
 
 - Go-core client
-- Puppeth tool
 
 ## Best Practices
 
@@ -85,4 +84,4 @@ We may modify the terms of this program or terminate this program at any time, b
 * Include your Core wallet for payment.
 * Please allow 3 business days for us to respond before sending another email.
 
-[**Report Vulnerability**](https://developer.coreblockchain.cc/report-vulnerability)
+### [Report Vulnerability](https://developer.coreblockchain.cc/report-vulnerability)

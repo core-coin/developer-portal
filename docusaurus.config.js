@@ -12,12 +12,15 @@ module.exports = {
   ],
   scripts: [],
   themeConfig: {
+    image: 'img/meta-image.png',
     navbar: {
       title: 'Developer',
       logo: {
         alt: 'Core Coin',
         src: 'img/corecoin-logo.svg',
+        srcDark: 'img/corecoin-logo-dark.svg',
       },
+      hideOnScroll: true,
       links: [
         {
           to: 'docs/guides/start',

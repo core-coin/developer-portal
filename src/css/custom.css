@@ -154,6 +154,9 @@
 .react-toggle--focus .react-toggle-thumb {
   box-shadow: 0px 0px 2px 3px var(--ifm-color-primary) !important;
 }
+.react-toggle-thumb {
+  background-color: #aaa !important;
+}
 
 a[href*="//"]:not([href*="coreblockchain.cc"]):not([href*="corecoin.cc"]):not([href*="github.com/core-coin"]):after {
   content: "\27A5";
@@ -318,22 +321,61 @@ a.white {
   color: rgb(255, 255, 255);
 }
 
-input[type="text"]:not([id^=react-select-]), input[type="email"], input[type="password"], input[type="number"] {
+input[type="text"]:not([class^=rselect]), input[type="email"], input[type="password"], input[type="number"] {
   display: inline-block;
   padding: .375rem .75rem;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   background-clip: padding-box;
-  border-color: hsl(0,0%,80%);
+  border-color: var(--ifm-color-emphasis-400);
   border-radius: 4px;
   border-style: solid;
   border-width: 1px;
   border-radius: 4px;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  background-color: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
 }
 
-input[type="text"]:focus:not([id^=react-select-]), input[type="email"]:focus, input[type="password"]:focus, input[type="number"]:focus {
+input[type="text"]:not([class^=rselect])::placeholder, input[type="email"]::placeholder, input[type="password"]::placeholder, input[type="number"]::placeholder {
+  color: var(--ifm-color-emphasis-400);
+}
+
+input[type="text"]:not([class^=rselect]):disabled, input[type="email"]:disabled, input[type="password"]:disabled, input[type="number"]:disabled {
+  background-color: var(--ifm-color-emphasis-200);
+  cursor: not-allowed;
+}
+
+input[type="text"]:focus:not([class^=rselect]), input[type="email"]:focus, input[type="password"]:focus, input[type="number"]:focus {
   border-color: #2684FF;
   box-shadow: 0 0 0 1px #2684FF;
+}
+
+div.rselect__control {
+  border-color: var(--ifm-color-emphasis-400);
+  background-color: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
+}
+div.rselect__menu {
+  background-color: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
+}
+div.rselect__single-value {
+  color: var(--ifm-font-color-base);
+}
+div.rselect__multi-value {
+  background-color: var(--ifm-color-emphasis-200);
+}
+div.rselect__multi-value__label {
+  color: var(--ifm-font-color-base);
+}
+div.rselect__multi-value__remove {
+  color: var(--ifm-font-color-base);
+}
+div.rselect__input {
+  color: var(--ifm-font-color-base);
+}
+div.rselect__option--is-focused {
+  background-color: var(--ifm-color-emphasis-200);
 }

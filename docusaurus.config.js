@@ -61,7 +61,7 @@ module.exports = {
             },
             {
               label: 'Build Boid',
-              to: 'docs/guides/deploy-node',
+              to: 'docs/guides/build-boid',
             },
           ],
         },

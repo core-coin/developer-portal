@@ -1,27 +1,23 @@
 module.exports = {
   title: 'Developer',
   tagline: 'Core Blockchain Developer Portal',
-  url: 'https://developer.coreblockchain.cc',
+  url: 'https://dev.coreblockchain.cc',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'CORE FOUNDATION',
   projectName: 'developer-portal',
-  plugins: [
-    'rehype-katex',
-    'remark-math',
-  ],
   scripts: [],
   themeConfig: {
     image: 'img/meta-image.png',
     navbar: {
       title: 'Developer',
       logo: {
-        alt: 'Core Coin',
+        alt: 'Core Dev',
         src: 'img/corecoin-logo.svg',
         srcDark: 'img/corecoin-logo-dark.svg',
       },
       hideOnScroll: true,
-      links: [
+      items: [
         {
           to: 'docs/guides/start',
           activeBasePath: 'guides',
@@ -48,13 +44,13 @@ module.exports = {
         },
         {
           href: 'https://coreblockchain.cc/get-started',
-          label: 'Get Started ⚡',
+          label: 'Get Started',
           position: 'right',
         },
       ],
     },
     footer: {
-      style: 'lite',
+      style: 'light',
       links: [
         {
           title: 'Docs',
@@ -64,7 +60,7 @@ module.exports = {
               to: 'docs/bug-bounty',
             },
             {
-              label: 'Deploy Node',
+              label: 'Build Boid',
               to: 'docs/guides/deploy-node',
             },
           ],
@@ -77,6 +73,10 @@ module.exports = {
               href: 'https://cip.coreblockchain.cc',
             },
             {
+              label: 'Blog',
+              href: 'https://blog.coreblockchain.cc',
+            },
+            {
               label: 'Core ◆ Talk',
               href: 'https://coretalk.info',
             },
@@ -86,32 +86,27 @@ module.exports = {
           title: 'About',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/core-coin',
+              label: 'Git⚡️',
+              href: 'https://git.energy/core',
             },
             {
               label: 'M↓x',
               to: 'docs/help/markdown',
             },
             {
-              label: '✨',
+              label: 'Stars ✨',
               to: 'docs/contributors/stars',
             },
           ],
         },
       ],
-      copyright: {
-        name: 'CC⓪ ➤ CORE FOUNDATION, nadácia',
-        link: '/docs/contributors/license',
-      },
-      goBack: {
-        name: 'Core Blockchain',
-        link: 'https://coreblockchain.cc',
-      },
+      copyright: 'License ⓪',
     },
     prism: {
       theme: require('prism-react-renderer/themes/palenight'),
     },
+    enableUpdateBy: true,
+    enableUpdateTime: true,
   },
   presets: [
     [
@@ -120,7 +115,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/core-coin/developer-portal/edit/master/',
+            'https://git.energy/core/developer-portal/edit/master/',
           remarkPlugins: [
             require('remark-math'),
             require('remark-sub-super'),
@@ -139,7 +134,7 @@ module.exports = {
     securitymail: {
       mail: 'security@corebloackchain.cc',
       keyid: 'E13007A2',
-      keylink: 'https://github.com/core-coin/keys/raw/master/Security%20(E13007A2).asc',
+      keylink: 'https://git.energy/snippets/15',
     },
   },
 };

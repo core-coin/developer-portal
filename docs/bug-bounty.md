@@ -14,7 +14,7 @@ Core development team has up to 90 days to implement a fix based on the severity
 
 ## Rewards
 
-We are rewarding researchers that find bugs with a bounty of our digital currency, Cores (XCE). The amount of the award depends on the degree of severity of the vulnerability reported.
+We are rewarding researchers that find bugs with a bounty of our digital currency, Cores (XCB). The amount of the award depends on the degree of severity of the vulnerability reported.
 
 We calculate rewards regards to according to the [OWASP](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology) risk rating model based on Impact and Likelihood.
 
@@ -26,20 +26,7 @@ We calculate rewards regards to according to the [OWASP](https://www.owasp.org/i
 |              | **Low**        | **Medium**     | **High**       |
 |              | **Likelihood** | **Likelihood** | **Likelihood** |
 
-1 point currently corresponds to 1 EUR (payable in Cores (XCE)), something which may change without prior notice.
-
-<dl>
-  <dt>Critical</dt>
-    <dd>up to X points</dd>
-  <dt>High</dt>
-    <dd>up to X points</dd>
-  <dt>Medium</dt>
-    <dd>up to X points</dd>
-  <dt>Low</dt>
-    <dd>up to X points</dd>
-  <dt>Note</dt>
-    <dd>up to X points</dd>
-</dl>
+1 point currently corresponds to 1 EUR (payable in Cores (XCB)), something which may change without prior notice.
 
 ## Eligibility
 
@@ -47,7 +34,7 @@ Any bug that poses a significant vulnerability to the security or integrity of t
 
 - You must be the first person to responsibly disclose an unknown issue.
 - You must report bug against latest version of software.
-- Bug shouldn't be already discovered. Please, check [published security advisories](https://github.com/core-coin/go-core/security/advisories?state=published).
+- Bug shouldn't be already discovered. Please, check [published security advisories](https://git.energy/core/go-core/issues?scope=incident&sort=weight_desc&state=closed).
 
 In general, the following would not meet the threshold for severity:
 
@@ -65,12 +52,6 @@ In general, the following would not meet the threshold for severity:
 
 The severity of a bug, is taken into consideration when deciding the bounty payout amount. We considering, how many people are affected as well if is affected the core or additional modules.
 
-## Scope
-
-Open source projects:
-
-- Go-core client
-
 ## Best Practices
 
 - Please use your local instance of Go-core and a separate network (not test/public network) when searching for security bugs. Remember that blockchains are public and someone may see your findings and report a bug before you.
@@ -86,7 +67,8 @@ We may modify the terms of this program or terminate this program at any time, b
 
 * Try to include as much information in your report as you can, including a description of the bug, its potential impact, and steps for reproducing it or proof of concept.
 * Compose your message in English language.
-* Include your Core wallet for payment.
 * Please allow 3 business days for us to respond before sending another email.
 
-<a class="button button--primary button--lg" href="/report-vulnerability">Report Vulnerability</a>
+### Scope
+
+- [Report vulnerability in `Go-core`](https://git.energy/core/go-core/issues/new?issuable_template=report_vulnerabilty&issue%5Bissue_type%5D=incident)

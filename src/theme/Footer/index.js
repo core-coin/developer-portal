@@ -50,7 +50,7 @@ function Footer() {
       })}>
       <section className="sitemap">
         <div className="footer__block back">
-          <a href={goBack.link}>❮ {goBack.name}</a>
+          <a href="https://coreblockchain.cc">❮ Core Blockchain</a>
         </div>
         {links && links.length > 0 && links.map((linkItem, i) => (
             <div key={i} className="footer__block">
@@ -81,7 +81,7 @@ function Footer() {
             </div>
           ))}
         <div className="footer__block copyright">
-          <a href={copyright.link}>{copyright.name}</a>
+          <a href="/docs/contributors/license">{copyright}</a>
         </div>
       </section>
     </footer>

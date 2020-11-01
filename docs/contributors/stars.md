@@ -11,10 +11,10 @@ Thank you for contributing and improving our software — You — and other supp
 
 ## Our Stars ✨
 
-Rastislav Vašička [rastislav@coreblockchain.cc](mailto:rastislav@coreblockchain.cc)
+[**Contributors**](https://git.energy/core/developer-portal/commits/master)
 
 ## Contribute 💚
 
-<a class="button button--primary" href="https://github.com/core-coin/developer-portal/fork" target="_blank">Fork Developer Portal</a>
-<a class="button button--primary" href="https://github.com/core-coin/go-core/fork" target="_blank">Fork Core Blockchain</a>
+<a class="button button--primary" href="https://git.energy/core/developer-portal/forks/new" target="_blank">Fork Developer Portal</a>
+<a class="button button--primary" href="https://git.energy/core/go-core/forks/new" target="_blank">Fork Core Blockchain</a>
 <a class="button button--primary" href="/docs/bug-bounty">Report Vulnerability</a>

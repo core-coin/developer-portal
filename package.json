@@ -9,12 +9,12 @@
     "deploy": "docusaurus deploy"
   },
   "contributors": [
-    "Rastislav <rastislav@coreblockchain.cc> (https://github.com/raisty)"
+    "Rastislav <rastislav@coreblockchain.cc> (https://git.energy/rasty)"
   ],
   "license": "MIT",
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.58",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.58",
+    "@docusaurus/core": "^2.0.0-alpha.67",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.67",
     "classnames": "^2.2.6",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",

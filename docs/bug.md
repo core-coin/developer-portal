@@ -1,5 +1,5 @@
 ---
-id: bug-bounty
+id: bug
 title: Bug Bounty Program
 ---
 

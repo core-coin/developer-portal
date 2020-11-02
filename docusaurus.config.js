@@ -56,8 +56,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Bug Bounty',
-              to: 'docs/bug-bounty',
+              label: 'Report Bug',
+              to: 'docs/bug',
             },
             {
               label: 'Build Boid',

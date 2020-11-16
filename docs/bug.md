@@ -1,6 +1,6 @@
 ---
 id: bug
-title: Bug Bounty Program
+title: Report Vulnerability
 ---
 
 ## Introduction
@@ -18,15 +18,15 @@ We are rewarding researchers that find bugs with a bounty of our digital currenc
 
 We calculate rewards regards to according to the [OWASP](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology) risk rating model based on Impact and Likelihood.
 
-| **Impact**   | **Severity**   | **Severity**   | **Severity**   |
-|--------------|----------------|----------------|----------------|
-| **High**     | Moderate       | High           | Critical       |
-| **Moderate** | Low            | Moderate       | High           |
-| **Low**      | Note           | Low            | Moderate       |
-|              | **Low**        | **Medium**     | **High**       |
-|              | **Likelihood** | **Likelihood** | **Likelihood** |
+| **Impact**   | **Severity**    | **Severity**    | **Severity**    |
+|--------------|-----------------|-----------------|-----------------|
+| **High**     | Moderate //S3// | High //S4//     | Critical //S5// |
+| **Moderate** | Low //S2//      | Moderate //S3// | High //S4//     |
+| **Low**      | Note //S1//     | Low //S2//      | Moderate //S3// |
+|              | **Low**         | **Medium**      | **High**        |
+|              | **Likelihood**  | **Likelihood**  | **Likelihood**  |
 
-1 point currently corresponds to 1 EUR (payable in Cores (XCB)), something which may change without prior notice.
+1 point currently corresponds to 1 EUR (payable in Core //XCB//), something which may change without prior notice.
 
 ## Eligibility
 
@@ -71,4 +71,4 @@ We may modify the terms of this program or terminate this program at any time, b
 
 ### Scope
 
-- [Report vulnerability in `Go-core`](https://git.energy/core/go-core/issues/new?issuable_template=report_vulnerabilty&issue%5Bissue_type%5D=incident)
+- [Report vulnerability in `Go-core`](https://git.energy/core/go-core/issues/new?issuable_template=Report%20Vulnerabilty&issue[issue_type]=incident)

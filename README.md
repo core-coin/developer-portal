@@ -4,7 +4,7 @@ This is developer portal for Core Community.
 
 ## Getting Started
 
-You can visit developer documentation on [developer.coreblockchain.cc](https://developer.coreblockchain.cc) website.
+You can visit developer documentation on [dev.coreblockchain.cc](https://developer.coreblockchain.cc) website.
 
 ## Deployment
 
@@ -26,7 +26,7 @@ Please [fork](https://github.com/core-coin/developer-portal/fork) repository and
 
 Thank you  — All — who contribute to our documentation. With  — You — we can make it better.
 
-See also the list of most active [contributors](CONTRIBUTORS.md) who participated in this project.
+See also the list of most active [contributors](https://github.com/core-coin/developer-portal/graphs/contributors) who participated in this project.
 
 ## License
 

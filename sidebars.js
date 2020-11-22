@@ -1,20 +1,20 @@
 module.exports = {
-  guides: {
-    'Get Started': ['guides/start'],
-    'Concepts': ['guides/start'],
-    'Walkthroughs': ['guides/start'],
+  docs: {
+    'Get Started': ['docs/start'],
+    'Cryptography': ['docs/ed448', 'docs/twisted-edwards-curves'],
+    'Glossary': ['docs/glossary'],
   },
-  software: {
-    'Overview': ['software/start'],
-    'Go Core': ['software/start'],
+  ecosystem: {
+    'Overview': ['ecosystem/start'],
+    'Go Core': ['ecosystem/start'],
+    'Looking glass': ['ecosystem/looking-glass'],
   },
-  tools: {
-    'Smart Contracts': ['tools/start'],
-    'Registries': ['tools/start'],
-    'Name Server': ['tools/start'],
+  coding: {
+    'Intro': ['coding/start'],
+    'Dev Guide': ['coding/developers-guide'],
   },
-  api: {
-    'Core SDK': ['api/start'],
-    'Web3': ['api/start'],
+  tutorials: {
+    'Core SDK': ['tutorials/start'],
+    'Web3': ['tutorials/start'],
   },
 };

@@ -8,9 +8,6 @@
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy"
   },
-  "contributors": [
-    "Rastislav <rastislav@coreblockchain.cc> (https://git.energy/rasty)"
-  ],
   "license": "MIT",
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.66",

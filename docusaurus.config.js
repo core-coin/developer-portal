@@ -9,8 +9,10 @@ module.exports = {
   scripts: [],
   themeConfig: {
     image: 'img/meta-image.png',
+    forceDarkMode: true,
+    sidebarCollapsible: false,
     navbar: {
-      title: 'Developer',
+      title: 'Dev',
       logo: {
         alt: 'Core Dev',
         src: 'img/corecoin-logo.svg',
@@ -19,27 +21,39 @@ module.exports = {
       hideOnScroll: true,
       items: [
         {
-          to: 'docs/guides/start',
-          activeBasePath: 'guides',
-          label: 'Guides',
+          to: 'docs/start',
+          activeBasePath: 'docs',
+          label: 'Docs',
           position: 'left',
         },
         {
-          to: 'docs/software/start',
-          activeBasePath: 'software',
-          label: 'Software',
+          to: 'ecosystem/start',
+          activeBasePath: 'ecosystem',
+          label: 'Ecosystem',
           position: 'left',
         },
         {
-          to: 'docs/tools/start',
-          activeBasePath: 'tools',
-          label: 'Tools',
+          to: 'coding/start',
+          activeBasePath: 'coding',
+          label: 'Coding',
           position: 'left',
         },
         {
-          to: 'docs/api/start',
-          activeBasePath: 'api',
-          label: 'API',
+          to: 'tutorials/start',
+          activeBasePath: 'tutorials',
+          label: 'Tutorials',
+          position: 'left',
+        },
+        {
+          to: 'enterprise/start',
+          activeBasePath: 'enterprise',
+          label: 'Enterprise',
+          position: 'left',
+        },
+        {
+          to: 'community/start',
+          activeBasePath: 'community',
+          label: 'Community',
           position: 'left',
         },
         {
@@ -57,11 +71,7 @@ module.exports = {
           items: [
             {
               label: 'Report Bug',
-              to: 'docs/bug',
-            },
-            {
-              label: 'Build Boid',
-              to: 'docs/guides/build-boid',
+              to: 'report/bug',
             },
           ],
         },
@@ -69,16 +79,16 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'CIP',
-              href: 'https://cip.coreblockchain.cc',
+              label: 'Core ◆ Talk',
+              href: 'https://coretalk.info',
             },
             {
               label: 'Blog',
               href: 'https://blog.coreblockchain.cc',
             },
             {
-              label: 'Core ◆ Talk',
-              href: 'https://coretalk.info',
+              label: 'CIP',
+              href: 'https://cip.coreblockchain.cc',
             },
           ],
         },
@@ -90,17 +100,17 @@ module.exports = {
               href: 'https://git.energy/core',
             },
             {
-              label: 'M↓x',
-              to: 'docs/help/markdown',
+              label: 'GitHub',
+              href: 'https://github.com/core-coin',
             },
             {
-              label: 'Stars ✨',
-              to: 'docs/contributors/stars',
+              label: 'M↓x',
+              to: 'help/markdown',
             },
           ],
         },
       ],
-      copyright: 'License ⓪',
+      copyright: 'License CC⓪',
     },
     prism: {
       theme: require('prism-react-renderer/themes/palenight'),
@@ -115,7 +125,8 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://git.energy/core/developer-portal/edit/master/',
+            'https://github.com/core-coin/developer-portal/edit/master/',
+          routeBasePath: '/',
           remarkPlugins: [
             require('remark-math'),
             require('remark-sub-super'),

@@ -4,7 +4,6 @@ import classnames from 'classnames';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import styles from './styles.module.css';
 
 function FooterLink({to, href, label, ...props}) {
   const toUrl = useBaseUrl(to);
@@ -37,7 +36,6 @@ function Footer() {
   const {footer} = themeConfig;
 
   const {copyright = {}, links = [], logo = {}} = footer || {};
-  const logoUrl = useBaseUrl(logo.src);
 
   if (!footer) {
     return null;
@@ -81,7 +79,7 @@ function Footer() {
             </div>
           ))}
         <div className="footer__block copyright">
-          <a href="/docs/contributors/license">{copyright}</a>
+          <a href="/contributors/license">{copyright}</a>
         </div>
       </section>
     </footer>

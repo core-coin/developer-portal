@@ -12,9 +12,9 @@ module.exports = {
     forceDarkMode: true,
     sidebarCollapsible: false,
     navbar: {
-      title: 'Dev',
+      title: 'DEV',
       logo: {
-        alt: 'Core Dev',
+        alt: 'CORE DEV',
         src: 'img/corecoin-logo.svg',
         srcDark: 'img/corecoin-logo-dark.svg',
       },
@@ -96,10 +96,6 @@ module.exports = {
           title: 'About',
           items: [
             {
-              label: 'Git⚡️',
-              href: 'https://git.energy/core',
-            },
-            {
               label: 'GitHub',
               href: 'https://github.com/core-coin',
             },
@@ -145,7 +141,7 @@ module.exports = {
     securitymail: {
       mail: 'security@corebloackchain.cc',
       keyid: 'E13007A2',
-      keylink: 'https://git.energy/snippets/15',
+      keylink: 'https://github.com/core-coin/keys/blob/master/Security%20(E13007A2).asc',
     },
   },
 };

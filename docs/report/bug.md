@@ -34,7 +34,7 @@ Any bug that poses a significant vulnerability to the security or integrity of t
 
 - You must be the first person to responsibly disclose an unknown issue.
 - You must report bug against latest version of software.
-- Bug shouldn't be already discovered. Please, check [published security advisories](https://git.energy/core/go-core/issues?scope=incident&sort=weight_desc&state=closed).
+- Bug shouldn't be already discovered. Please, check [published security advisories](https://github.com/core-coin/go-core/security/advisories).
 
 In general, the following would not meet the threshold for severity:
 
@@ -59,7 +59,7 @@ The severity of a bug, is taken into consideration when deciding the bounty payo
 
 ## Legal
 
-You may not participate in this program if you are a resident or individual located within a country appearing on any EU 🇪🇺 sanctions lists.
+You may not participate in this program if you are a resident or individual located within a country appearing on any EU sanctions lists.
 You are responsible for any tax implications or additional restrictions depending on your country and local law.
 We may modify the terms of this program or terminate this program at any time, but we won’t apply any changes we make to these program terms retroactively.
 
@@ -69,6 +69,4 @@ We may modify the terms of this program or terminate this program at any time, b
 * Compose your message in English language.
 * Please allow 3 business days for us to respond before sending another email.
 
-### Scope
-
-- [Report vulnerability in `Go-core`](https://git.energy/core/go-core/issues/new?issuable_template=Report%20Vulnerabilty&issue[issue_type]=incident)
+<a className="button button--primary button--lg" href="/vulnerability-report">Report Vulnerability</a>

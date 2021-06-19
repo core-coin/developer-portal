@@ -17,4 +17,4 @@ Thank you for contributing and improving our software — You — and other supp
 
 <a class="button button--primary" href="https://github.com/core-coin/developer-portal/fork" target="_blank">Fork Developer Portal</a>
 <a class="button button--primary" href="https://github.com/core-coin/go-core/fork" target="_blank">Fork Core Blockchain</a>
-<a class="button button--primary" href="/docs/report/bug">Report Vulnerability</a>
+<a class="button button--primary" href="/report/bug">Report Vulnerability</a>

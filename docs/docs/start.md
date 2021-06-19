@@ -13,7 +13,6 @@ If this is your first attempt at Core development, we recommend starting at the 
 
 ### Fundamental topics
 
-- [Intro to Core Blockchain](/docs) – A quick overview of Core Blockchain
 - [ED448](/docs/ed448) – Core Blockchain's cryptography
 - [Twisted Edwards Curves](/docs/twisted-edwards-curves) – An introduction to Twisted Edwards Curves
 
@@ -21,4 +20,3 @@ If this is your first attempt at Core development, we recommend starting at the 
 
 
 ### Advanced
-

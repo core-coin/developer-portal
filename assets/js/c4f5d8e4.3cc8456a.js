@@ -1,0 +1,1 @@
+(self.webpackChunkdeveloper_portal=self.webpackChunkdeveloper_portal||[]).push([[195],{2841:function(e,t,r){"use strict";r.r(t);var l=r(7294),a=r(5977);t.default=function(){return l.createElement(a.l_,{to:"/docs/start"})}}}]);

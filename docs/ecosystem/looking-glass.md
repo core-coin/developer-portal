@@ -9,7 +9,7 @@ title: Looking glass
 | Symbol | ₡ |
 | Unit | Core `₡` |
 | Smallest unit | Ore `ø` |
-| Decimal places | 16 |
+| Decimal places | 18 |
 | Consensus mechanism | [Proof-of-Work](https://en.wikipedia.org/wiki/Proof-of-work_system) |
 | Algorithm | RandomY |
 | Curve | Ed448 |

@@ -11,10 +11,10 @@ Thank you for contributing and improving our software — You — and other supp
 
 ## Our Stars ✨
 
-[**Contributors**](https://git.energy/core/developer-portal/commits/master)
+[**Contributors**](https://github.com/core-coin/developer-portal/graphs/contributors)
 
 ## Contribute 💚
 
-<a class="button button--primary" href="https://git.energy/core/developer-portal/forks/new" target="_blank">Fork Developer Portal</a>
-<a class="button button--primary" href="https://git.energy/core/go-core/forks/new" target="_blank">Fork Core Blockchain</a>
-<a class="button button--primary" href="/docs/bug-bounty">Report Vulnerability</a>
+<a class="button button--primary" href="https://github.com/core-coin/developer-portal/fork" target="_blank">Fork Developer Portal</a>
+<a class="button button--primary" href="https://github.com/core-coin/go-core/fork" target="_blank">Fork Core Blockchain</a>
+<a class="button button--primary" href="/docs/report/bug">Report Vulnerability</a>

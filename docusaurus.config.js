@@ -10,7 +10,6 @@ module.exports = {
   themeConfig: {
     image: 'img/meta-image.png',
     forceDarkMode: true,
-    sidebarCollapsible: false,
     navbar: {
       title: 'DEV',
       logo: {

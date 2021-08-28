@@ -1,3 +1,7 @@
+const math = require('remark-math')
+const subsuper = require('remark-sub-super')
+const katex = require('rehype-katex')
+
 module.exports = {
   title: 'Developer',
   tagline: 'Core Blockchain Developer Portal',
@@ -9,7 +13,13 @@ module.exports = {
   scripts: [],
   themeConfig: {
     image: 'img/meta-image.png',
-    forceDarkMode: true,
+    colorMode: {
+      respectPrefersColorScheme: true,
+      switchConfig: {
+        darkIcon: '✨',
+        lightIcon: '☀️',
+      },
+    },
     navbar: {
       title: 'DEV',
       logo: {
@@ -105,7 +115,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: 'License CC⓪',
+      copyright: `License CC⓪ 2016-${new Date().getFullYear()}`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/palenight'),
@@ -123,15 +133,24 @@ module.exports = {
             'https://github.com/core-coin/developer-portal/edit/master/',
           routeBasePath: '/',
           remarkPlugins: [
-            require('remark-math'),
-            require('remark-sub-super'),
+            math,
+            subsuper,
           ],
           rehypePlugins: [
-            require('rehype-katex'),
+            [
+              katex,
+              {
+                output: 'mathml',
+                strict: 'newLineInDisplayMode',
+              },
+            ],
           ],
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [
+            require.resolve('./src/css/custom.css'),
+            require.resolve('./src/css/katex.css'),
+          ],
         },
       },
     ],

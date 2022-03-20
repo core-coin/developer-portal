@@ -15,10 +15,6 @@ module.exports = {
     image: 'img/meta-image.png',
     colorMode: {
       respectPrefersColorScheme: true,
-      switchConfig: {
-        darkIcon: '✨',
-        lightIcon: '☀️',
-      },
     },
     navbar: {
       title: 'DEV',

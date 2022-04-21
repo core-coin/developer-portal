@@ -26,8 +26,6 @@ We calculate rewards regards to according to the [OWASP](https://www.owasp.org/i
 |              | **Low**         | **Medium**      | **High**        |
 |              | **Likelihood**  | **Likelihood**  | **Likelihood**  |
 
-1 point currently corresponds to 1 EUR (payable in Core //XCB//), something which may change without prior notice.
-
 ## Eligibility
 
 Any bug that poses a significant vulnerability to the security or integrity of the Core Network could be eligible for reward. However, it’s entirely at our discretion to decide whether a bug is significant enough to be eligible for reward.

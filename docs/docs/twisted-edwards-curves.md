@@ -15,7 +15,7 @@ $$
 XY=ZT,\ \ aX^2+Y^2=Z^2+dT^2.
 $$
 
-\(More details on Edwards curve models can be found in the [`curve25519_dalek` `curve_models`](https://doc-internal.dalek.rs/curve25519_dalek/curve_models/index.html) documentation\). The case $$a = 1$$ is the _untwisted_ case; the case $$a = -1$$ provides the fastest formulas. When not otherwise specified, we $$\mathcal E$$ for $$\mathcal E_{a,d}$$ ​.
+\(More details on Edwards curve models can be found in the [`curve25519_dalek` `curve_models`](https://doc-internal.dalek.rs/curve25519_dalek/curve_models/index.html) documentation\). The case $$a = 1$$ is the _untwisted_ case; the case $$a = -1$$ provides the fastest formulas. Unless specified otherwise, we $$\mathcal E$$ for $$\mathcal E_{a,d}$$ ​.
 
 When both $$d$$ and $$ad$$ are nonsquare \(which forces $$a$$ to be square\), the curve is _complete_. In this case the four-torsion subgroup is cyclic, and we can write it explicitly as
 

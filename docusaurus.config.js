@@ -153,7 +153,7 @@ module.exports = {
   ],
   customFields: {
     securitymail: {
-      mail: 'security@corebloackchain.cc',
+      mail: 'security@coreblockchain.cc',
       keyid: 'E13007A2',
       keylink: 'https://github.com/core-coin/keys/blob/master/Security%20(E13007A2).asc',
     },
